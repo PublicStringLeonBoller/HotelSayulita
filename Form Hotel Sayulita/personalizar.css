@@ -1,0 +1,46 @@
+body {
+    background-color: #39bec2;
+}
+
+#keonda:hover {
+    color: #535e67;
+}
+
+.holiwis {
+    color: rgb(30, 30, 30);
+}
+
+img.imagenes {
+    max-height: 450px;
+    min-height: 450px;
+}
+#header {
+    background: url("./Pics/small.jpg");
+}
+#info {
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 1em;
+    background-color: rgba(211, 211, 211, 0.3);
+}
+
+#margenForm {
+    border-radius: 1.5em;
+    margin-top: 3em;
+    width: 40em;
+    background-color: rgba(211, 211, 211, 0.6);
+}
+
+footer a.text-light:hover {
+    color: #fed136 !important;
+    text-decoration: none;
+}
+footer .cizgi {
+    border-right: 1px solid #535e67;
+}
+@media (max-width: 992px) {
+    footer .cizgi {
+        border-right: none;
+    }
+}
